@@ -26,3 +26,7 @@
 ## 工具类
 > 创建纯js的一个验证码
 1. function createVerificationCode ( elementId: string , pool = '0123456789' ) : string
+   
+## 随机类
+> 随机获取Element-plus的按钮类型
+function randomElementBtnType(): "primary" | "success" | "warning" | "danger" | "info" | "text"
